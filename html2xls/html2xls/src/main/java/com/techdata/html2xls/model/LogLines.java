@@ -28,6 +28,8 @@ public class LogLines implements Serializable {
     private String level = null;
     private String method = null;
     private String message = null;
+    
+    //A POJO
 
     public String getSampleProperty() {
         return sampleProperty;
